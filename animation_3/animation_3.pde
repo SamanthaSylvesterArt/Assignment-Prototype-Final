@@ -36,7 +36,7 @@ void draw() {
   fill(255);
   textFont(coolFont,50);        
   
-  // Move pac-man left-to right, and let
+// Move pac-man left-to right, and let
 // him tunnel around from the right
 // back to the beginning
 stroke(0); // black
