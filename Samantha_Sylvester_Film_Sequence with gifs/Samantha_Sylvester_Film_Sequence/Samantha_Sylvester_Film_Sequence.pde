@@ -131,11 +131,12 @@ void draw() {
 
     act4();
     background(0);
+    image(img, 10, 10);  // Load an image into the program
     fill(#ffffff);
-    text("Scott Pilgrim", 200, 200);
+    /*text("Scott Pilgrim", 200, 200);
     text("Vs", 350, 300);
     text("The World", 200, 400);
-    
+    */
     image(loopingGifB, width - 10 - loopingGifB.width, height - loopingGifB.height);
     translate(300,-150);
     image(loopingGif, width/2 - loopingGif.width/2, height / 2 - loopingGif.height / 2);
