@@ -18,7 +18,7 @@ public class Rain
     stroke(100,col);
     strokeWeight(2);
     line(position.x,position.y,pposition.x,pposition.y);
-    //ellipse(position.x,position.y,5,5);
+    ellipse(position.x,position.y,5,5);
   }
   
   void calculate()
@@ -39,7 +39,7 @@ public class Rain
 public class Splash
 {
   PVector position,speed;
-  /*
+  
   public Splash(float x,float y)
   {
     float angle = random(PI,TWO_PI);
@@ -50,7 +50,7 @@ public class Splash
     speed = new PVector(xx,yy);
     
   }
-  */
+  
   public void draw()
   {
     strokeWeight(1);

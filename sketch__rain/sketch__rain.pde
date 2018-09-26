@@ -37,10 +37,10 @@ void draw()
     if (rainT.position.y>height)
     {
       
-     /* for (int k = 0 ; k<random(5,10) ; k++)
+      for (int k = 0 ; k<random(5,10) ; k++)
       {
         splash.add(new Splash(rainT.position.x,height));
-      }*/
+      }
       
       rain.remove(i);
       float rand = random(0,100);
@@ -48,7 +48,7 @@ void draw()
       rain.add(new Rain());
     }
   }
-  /*
+  
   for (int i=0 ; i<splash.size() ; i++)
   {
     Splash spl = (Splash) splash.get(i);
@@ -57,7 +57,7 @@ void draw()
     if (spl.position.y>height)
     splash.remove(i);
   }
-*/
+
 }
 
 void blur(float trans)

@@ -165,12 +165,12 @@ void keyPressed() {
   if (key == ' ') {
     if (pause) {
       loopingGifC.play();
-     // loopingGifB.play();
+     //loopingGifB.play();
       //loopingGif.play();
       pause = false;
     } else {
-      //loopingGif.pause();
       loopingGifC.pause();
+      //loopingGif.pause();
       //loopingGifB.pause();
       pause = true;
     }

@@ -68,8 +68,8 @@ void setup() {
   r_width = width/float(bands);
 
   // Load and play a soundfile and loop it. This has to be called before the FFT is created.
-  sample = new SoundFile(this, "The Mowglis - Im Good Lyric Video.mp3");
-  sample.loop();
+  sample = new SoundFile(this, "Sex Bob-Omb - Garbage Truck");
+  //sample.loop();
 
   // Create and patch the FFT analyzer
   fft = new FFT(this, bands);
